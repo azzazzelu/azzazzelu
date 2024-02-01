@@ -1,0 +1,863 @@
+body {
+    background: #222220;
+    font-family: SuisseIntl;
+    font-size: 18px;
+}
+
+.header {
+    width: 1600px;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+
+.head_container {
+    padding: 34px 0 0 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 50.958px;
+}
+
+.right_head {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 25px;
+}
+
+.nav_a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.svg {
+    margin-right: -100px;
+}
+
+.top_svg {
+    margin-top: -17px;
+}
+
+.booking_button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Suisse Intl";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #CB3B48;
+    background: #CB3B48;
+    width: 179px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+
+.night_clubbing {}
+
+.container {
+    width: 1200px;
+
+    margin: 0 auto;
+
+}.content_night_img{
+    position: absolute;
+    z-index: 1;
+}
+
+.container_logo {
+    width: 1600px;
+    height: 940px;
+    margin: 0 auto;
+    background: url("/img/night_clubbing.png")no-repeat;
+}
+
+.content_night {
+    padding: 150px 150px;
+}
+
+.button_mid {
+
+    text-align: center;
+}
+
+.button_left_booking {
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 23.68px;
+    text-transform: uppercase;
+    border-radius: 7.4px;
+    border: 1.48px solid #CB3B48;
+    background: #CB3B48;
+    width: 385.531px;
+    height: 74px;
+
+}
+
+.button_menu {
+    color: #CB3B48;
+    font-family: "Suisse Intl";
+    font-size: 23.68px;
+    text-transform: uppercase;
+    width: 385.531px;
+    height: 74px;
+    border-radius: 7.4px;
+    border: 1.48px solid #FFF;
+    background: #FFF;
+}
+
+.right {
+    margin-right: 50px;
+}
+
+.about_hr {
+    width: 73px;
+    height: 5px;
+    background: #C93A48;
+    box-shadow: 0px 0px 30px 0px #BD2D43;
+    margin-left: 0px;
+}
+
+.about_contnet {
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+    margin-bottom: 90px;
+}
+
+.title_about {
+    width: 295px;
+    color: #FFF;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.32);
+    font-family: "Suisse Intl";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.title_span {
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%;
+    text-transform: uppercase;
+}
+
+.img_open {
+    margin: -106px 0 0 183px;
+}
+
+.text_about {
+    margin-top: 43px;
+    color: #8F8F8F;
+    font-family: "Suisse Intl";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    /* 0px */
+    width: 577px;
+}
+
+.read_more {
+    margin-top: 30px;
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0%;
+    text-decoration-line: underline;
+}
+
+.p_more {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.more_detailed {
+    margin-top: 45px;
+
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0%;
+    text-decoration: none;
+    display: flex;
+    gap: 17px;
+}
+
+/* SLIDER */
+.slider-container {
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-card {
+    min-width: 500px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.slider-indicator {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    gap: 8px;
+}
+
+
+.slider-indicator div {
+    width: 59px;
+    height: 2px;
+    border-radius: 100px;
+    background-color: #696969;
+}
+
+.slider-indicator div.active {
+    width: 59px;
+    height: 2px;
+    border-radius: 100px;
+    background-color: #C93A48;
+    box-shadow: 0px 0px 10px 0px #C93A48;
+}
+
+.slider_arrow {
+    display: flex;
+}
+
+.slider-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slider-arrow.left {
+
+    margin-left: auto;
+}
+
+.slider-arrow.right {
+    margin-right: 0;
+}
+
+/* news */
+.news {
+    height: 515px;
+    margin: 0 auto;
+    background-color: #BD2D43;
+
+}
+
+.news_container {
+    background-image: url("/img/new.png");
+    background-size: cover;
+
+    height: 515px;
+    margin: 0 auto;
+}
+
+.news_content {
+    display: block;
+
+}
+
+.title_news {
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+}
+
+
+/* SLIDER NEWS */
+.slider_news {
+    position: relative;
+
+    height: 400px;
+    overflow: hidden;
+}
+
+.card_news {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.prev_btn,
+.next_btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prev_btn {
+    left: 250px;
+}
+
+.next_btn {
+    right: 250px;
+}
+
+/* WHAT WE HAVE */
+.what_we_have {
+    padding-top: 75px;
+}
+
+.what_we_have_content {
+    display: flex;
+    justify-content: center;
+}
+
+.title_have {
+    width: 363px;
+    color: #FFF;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.32);
+    font-family: "Suisse Intl";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 98.8%;
+    /* 33.592px */
+    text-transform: uppercase;
+}
+
+.text_ahve {
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 98.8%;
+    text-transform: uppercase;
+}
+
+.text_we {
+    color: #8F8F8F;
+    font-family: "Suisse Intl";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    width: 508px;
+    /* 0px */
+}
+
+.view_menu {
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0%;
+    /* 0px */
+    text-decoration: none;
+}
+
+.what_we_text {
+    padding-top: 80px;
+}
+
+/* contacts */
+.contacts {
+    padding-top: 100px;
+}
+
+.title_contact {
+
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.contact_content {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.contacts_hr {
+    width: 1px;
+    height: 444px;
+    margin: 0 67px 0 71px;
+    background: #222220;
+}
+
+.contact_content_left {}
+
+.online_cont {
+    width: 353px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1.48px solid #CB3B48;
+    background: #CB3B48;
+    color: #FFF;
+    text-align: center;
+    font-family: "Suisse Intl";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.title_cont {
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.num_phone,
+.phone_email,
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.date_contact {
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.work_time {
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.time {
+    margin-left: 26px;
+    color: #FFF;
+    font-family: "Suisse Intl";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* footer */
+.footer {
+    background: #161615;
+}
+
+.container_footer {
+    padding-top: 25px;
+    background-image: url("/img/footerleft.png");
+    background-size: cover;
+
+    height: 158px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.content_footer {
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+}
+
+.content_footer_left {}
+
+.subtext {
+    margin-top: 23px;
+    display: flex;
+    gap: 21px;
+}
+
+.subtext_text {
+    color: #9C9C9C;
+    font-family: "Suisse Intl";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.content_footer_mid {
+    display: flex;
+    gap: 87px;
+}
+
+.text_footer {
+    color: #DCDCDC;
+    font-family: "Suisse Intl";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_phone_number {
+    color: #BD2D43;
+    text-align: right;
+    font-family: "Suisse Intl";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subtext_bron {
+    color: #8F8F8F;
+    text-align: right;
+    font-family: "Suisse Intl";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.messange_footer {
+    display: flex;
+    gap: 15px;
+}
+
+/* NEWS MENU PAGE */
+.header_PAGE_MENU {
+
+    position: static;
+}
+
+/* TABS */
+.tab {
+    padding-top: 50px;
+
+}
+
+.tab>input[type="radio"] {
+    display: none;
+}
+
+.tab-content {
+    display: none;
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2 {
+    display: block;
+}
+
+#tab-btn-1:checked~.tab_title_1,
+#tab-btn-2:checked~.tab_title_2 {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.tab_title_1 {
+    margin-right: 50px;
+}
+
+.tab_title_2 {
+    margin-left: 50px;
+}
+
+.tab_input {
+    display: none;
+}
+
+.tab>inpuyt[tpe="radio"]:checked+label {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.tab_title {
+    color: #505050;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.filter {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.filter_top,
+.filter_bot {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.filter_text {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* CARD MENU FOOD */
+.card_content_food {
+    width: 380px;
+    height: 655px;
+    margin-bottom: 50px;
+}
+
+.tab_content_menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px 15px;
+}
+
+.container_card_menu {
+    padding-left: 25px;
+}
+
+.text_card_menu {
+
+    background-image: url("/Night-Club-ld/img/food_bg.png");
+}
+
+.text_card_menu_title {
+    color: #fff;
+    size: 22px;
+    margin: 0 auto;
+}
+
+.kk_BGY {
+    display: flex;
+    gap: 30px;
+}
+
+.kk_BGY_p {
+    color: #CB3B48;
+    size: 16px;
+    font-weight: 400;
+}
+
+.buy_food_menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price_div {
+    display: flex;
+
+}
+
+.price {
+    size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.price_span {
+    color: #fff;
+    size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.more_basket {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button_more {
+    /* padding: ; */
+    width: 114px;
+    height: 40px;
+    background: #fff;
+    color: #CB3B48;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.button_basket {
+    padding: 9px 9px 7px 7px;
+    background: #BD2D43;
+    border: 1px solid #C93A48;
+    border-radius: 5px;
+}
+
+.hr_card {
+    background: #CB3B48;
+    width: 210px;
+    height: 9px;
+    border-radius: 25px 25px 0px 0px;
+    border: 1px solid #BD2D43;
+}
+
+/* CARD MENU DRING */
+.card_content_dring {
+    width: 380px;
+    height: 637px;
+    margin-bottom: 50px;
+
+}
+
+.dring_categry {
+    color: #CB3B48;
+    size: 16px;
+    font-weight: 400;
+}
+
+.button_dring_more {
+    width: 114px;
+    height: 40px;
+    background: #CB3B48;
+    color: #fff;
+    border: 1px solid #CB3B48;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+/* BASKET */
+
+.basket {
+    margin-top: 100px;
+}
+
+#tab_btn_1:checked~#content_1,
+#tab_btn_2:checked~#content_2 {
+    display: block;
+}
+
+#tab_btn_1:checked~.tab_title_1,
+#tab_btn_2:checked~.tab_title_2 {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.basket>inpuyt[tpe="radio"]:checked+label {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* Content BASKET */
+.about_basket {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+}
+
+.about_basket_title {
+    color: #fff;
+    font-size: 24px;
+    border-bottom: 2px  #BD2D43 solid;
+ 
+
+}
+
+.btn_about_basket {
+    align-content: center;
+    border: 1px solid #CB3B48;
+    border-radius: 5px;
+    padding: 5px 40px;
+    box-shadow: 0px 0px 14.966828346252441px 0px #CB3B48;
+    background-color: #CB3B48;
+    color: #fff;
+ 
+    height: 50px;
+}
+.btn_about_basket>img{
+margin-right: 10px;
+}
+.about_basket_title>span{
+    color: #BD2D43;
+}
